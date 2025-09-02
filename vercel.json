@@ -1,0 +1,18 @@
+{
+  "env": {
+    "DATABASE_URL": "file:./prisma/dev.db",
+    "JWT_SECRET": "vesna-clinic-demo-jwt-secret-2025",
+    "NEXTAUTH_SECRET": "vesna-clinic-demo-nextauth-secret-2025",
+    "NODE_ENV": "production"
+  },
+  "build": {
+    "env": {
+      "DATABASE_URL": "file:./prisma/dev.db"
+    }
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+} 

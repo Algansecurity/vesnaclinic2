@@ -1,0 +1,26 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"
+  DATABASE_URL = "file:./prisma/dev.db"
+  JWT_SECRET = "vesna-clinic-demo-jwt-secret-2025"
+  NEXTAUTH_SECRET = "vesna-clinic-demo-nextauth-secret-2025"
+  NODE_ENV = "production"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[functions]
+  directory = "src/app/api" 

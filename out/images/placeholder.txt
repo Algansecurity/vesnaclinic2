@@ -1,0 +1,19 @@
+# Images Directory
+
+Bu klasörde aşağıdaki dosyaları bulundurmalısınız:
+
+## Gerekli Dosyalar:
+- `logo.png` - Site logosu (200x60px önerilen)
+- `hero-bg.jpg` - Ana sayfa arkaplan görseli (1920x1080px önerilen)
+- `og-image.jpg` - Social media paylaşım görseli (1200x630px)
+- `favicon.ico` - Site favicon
+
+## Örnek Görseller:
+- `before-after-1.jpg` - Önce/sonra örnek görseli
+- `service-1.jpg` - Hizmet görseli
+- `testimonial-1.jpg` - Müşteri fotoğrafı
+
+## Notlar:
+- Görseller web optimize edilmiş olmalı (WebP formatı tercih edilir)
+- Dosya boyutları mümkün olduğunce küçük tutulmalı
+- Yüksek kaliteli ve profesyonel görseller kullanın 

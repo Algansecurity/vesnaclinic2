@@ -1,0 +1,110 @@
+{
+  "homepage": {
+    "heroTitle": "Doğal Saç Ekimi ile Hayalinizdeki Görünüme Kavuşun",
+    "heroSubtitle": "Vesna Hair Clinic olarak, en son teknoloji ile güvenli ve etkili saç ekimi hizmetleri sunuyoruz.",
+    "whyUsTitle": "Neden Vesna Hair Clinic?*",
+    "whyUsItems": [
+      "FDA onaylı teknolojiler",
+      "Deneyimli uzman ekip",
+      "Doğal sonuçlar",
+      "24/7 destek hizmeti"
+    ]
+  },
+  "contact": {
+    "address": "İstanbul/Ataşehir",
+    "phone": "+90 532 666 29 80",
+    "email": "info@vesnahairclinic.com",
+    "workingHours": "Pazartesi - Cumartesi: 09:00 - 18:00",
+    "whatsapp": "+90 532 666 29 80"
+  },
+  "about": {
+    "title": "Vesna Hair Clinic Hakkında",
+    "description": "Vesna Hair Clinic olarak, saç ekimi alanında son teknoloji yöntemlerle hizmet veren uzman bir ekibiz.",
+    "mission": "Hastalarımıza en kaliteli ve güvenli saç ekimi hizmetini sunmak",
+    "vision": "Türkiye'nin en güvenilir saç ekimi kliniği olmak",
+    "experience": "10+ yıl deneyim",
+    "successRate": "%98 başarı oranı"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Muhteşem Dönüşümm",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "12 ay",
+      "satisfaction": 98
+    },
+    {
+      "id": 2,
+      "title": "Doğal Sonuçlar",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "10 ay",
+      "satisfaction": 97
+    },
+    {
+      "id": 3,
+      "title": "Hayal Kurduğu Saçlar",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "8 ay",
+      "satisfaction": 96
+    },
+    {
+      "id": 4,
+      "title": "Mükemmel Sonuç",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "14 ay",
+      "satisfaction": 99
+    },
+    {
+      "id": 5,
+      "title": "Yoğun ve Doğal",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "16 ay",
+      "satisfaction": 98
+    },
+    {
+      "id": 6,
+      "title": "Etkileyici Değişim",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "12 ay",
+      "satisfaction": 97
+    },
+    {
+      "id": 7,
+      "title": "Kusursuz Çizgi",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "18 ay",
+      "satisfaction": 99
+    },
+    {
+      "id": 8,
+      "title": "Genç ve Dinamik",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "11 ay",
+      "satisfaction": 98
+    },
+    {
+      "id": 9,
+      "title": "Tam İstediği Gibi",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "15 ay",
+      "satisfaction": 96
+    },
+    {
+      "id": 1752260100998,
+      "title": "Yeni Dönüşüm",
+      "beforeImage": "/images/kaanbefore.JPEG",
+      "afterImage": "/images/kaanafter.JPEG",
+      "duration": "12 ay",
+      "satisfaction": 95
+    }
+  ]
+}

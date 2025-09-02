@@ -1,0 +1,36 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e2e8f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cbd5e1;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="accentGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.05" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Accent overlay -->
+  <rect width="1920" height="1080" fill="url(#accentGradient)"/>
+  
+  <!-- Abstract hair-like flowing lines -->
+  <path d="M0 300 Q480 200 960 300 T1920 300 L1920 0 L0 0 Z" fill="#2563eb" opacity="0.03"/>
+  <path d="M0 400 Q480 300 960 400 T1920 400 L1920 0 L0 0 Z" fill="#7c3aed" opacity="0.02"/>
+  <path d="M0 500 Q480 400 960 500 T1920 500 L1920 0 L0 0 Z" fill="#f59e0b" opacity="0.02"/>
+  
+  <!-- Floating circles for modern touch -->
+  <circle cx="200" cy="200" r="60" fill="#2563eb" opacity="0.05"/>
+  <circle cx="1700" cy="300" r="80" fill="#7c3aed" opacity="0.04"/>
+  <circle cx="300" cy="800" r="40" fill="#f59e0b" opacity="0.06"/>
+  <circle cx="1600" cy="900" r="100" fill="#10b981" opacity="0.03"/>
+  
+  <!-- Subtle geometric patterns -->
+  <polygon points="100,100 150,50 200,100 150,150" fill="#2563eb" opacity="0.02"/>
+  <polygon points="1800,200 1850,150 1900,200 1850,250" fill="#7c3aed" opacity="0.02"/>
+  <polygon points="500,950 550,900 600,950 550,1000" fill="#f59e0b" opacity="0.02"/>
+</svg> 
