@@ -3,12 +3,6 @@ const nextConfig = {
   // Enhanced Performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons', 'framer-motion'],
-
-    serverComponentsExternalPackages: ['@prisma/client'],
-    turbotrace: {
-      logLevel: 'error'
-    },
-
     scrollRestoration: true
   },
 
