@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
+  // GitHub Pages configuration
+  basePath: isProd ? '/vesnaclinic2' : '',
+  assetPrefix: isProd ? '/vesnaclinic2/' : '',
   // Enhanced Performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons', 'framer-motion'],

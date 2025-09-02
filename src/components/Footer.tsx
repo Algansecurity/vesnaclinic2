@@ -40,7 +40,7 @@ const Footer = memo(function Footer() {
               <div className="flex items-center space-x-3">
                 <div className="relative w-12 h-12">
                   <img
-                    src="/images/logo2.png"
+                    src={`${process.env.NODE_ENV === 'production' ? '/vesnaclinic2' : ''}/images/logo2.png`}
                     alt="Vesna Hair Clinic"
                     className="w-full h-full object-contain"
                   />
@@ -97,7 +97,7 @@ const Footer = memo(function Footer() {
               {/* TURSAB Sertifikası - Sol tarafta */}
               <div className="relative w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 hover:scale-105 transition-transform duration-300">
                 <img
-                  src="/images/tursab.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/vesnaclinic2' : ''}/images/tursab.png`}
                   alt="TURSAB Sertifikası"
                   className="w-full h-full object-contain filter brightness-95 hover:brightness-110 transition-all duration-300"
                 />
@@ -106,7 +106,7 @@ const Footer = memo(function Footer() {
               {/* Sağlık Bakanlığı Sertifikası - Sağ tarafta */}
               <div className="relative w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 hover:scale-105 transition-transform duration-300">
                 <img
-                  src="/saglik.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/vesnaclinic2' : ''}/saglik.png`}
                   alt="Sağlık Bakanlığı Sertifikası"
                   className="w-full h-full object-contain filter brightness-95 hover:brightness-110 transition-all duration-300"
                 />
