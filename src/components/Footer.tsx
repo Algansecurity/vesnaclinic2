@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { memo } from 'react'
-import Image from 'next/image'
 import { ChevronRight } from 'lucide-react'
 
 // WhatsApp SVG Component
@@ -40,11 +39,10 @@ const Footer = memo(function Footer() {
             <Link href="/" className="inline-block group">
               <div className="flex items-center space-x-3">
                 <div className="relative w-12 h-12">
-                  <Image
+                  <img
                     src="/images/logo2.png"
                     alt="Vesna Hair Clinic"
-                    fill
-                    className="object-contain"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
@@ -98,25 +96,19 @@ const Footer = memo(function Footer() {
             <div className="flex flex-row items-start justify-start gap-4 sm:gap-6">
               {/* TURSAB Sertifikası - Sol tarafta */}
               <div className="relative w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 hover:scale-105 transition-transform duration-300">
-                <Image
+                <img
                   src="/images/tursab.png"
                   alt="TURSAB Sertifikası"
-                  fill
-                  className="object-contain filter brightness-95 hover:brightness-110 transition-all duration-300"
-                  priority={false}
-                  sizes="(max-width: 640px) 144px, (max-width: 1024px) 176px, 192px"
+                  className="w-full h-full object-contain filter brightness-95 hover:brightness-110 transition-all duration-300"
                 />
               </div>
               
               {/* Sağlık Bakanlığı Sertifikası - Sağ tarafta */}
               <div className="relative w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 hover:scale-105 transition-transform duration-300">
-                <Image
+                <img
                   src="/saglik.png"
                   alt="Sağlık Bakanlığı Sertifikası"
-                  fill
-                  className="object-contain filter brightness-95 hover:brightness-110 transition-all duration-300"
-                  priority={false}
-                  sizes="(max-width: 640px) 144px, (max-width: 1024px) 176px, 192px"
+                  className="w-full h-full object-contain filter brightness-95 hover:brightness-110 transition-all duration-300"
                 />
               </div>
             </div>
